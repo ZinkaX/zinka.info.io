@@ -39,8 +39,7 @@ function render() {
   renderer.render(scene, camera);
 
   // Rotate the cube every frame
-  cube.mesh.rotation.x += 0.05;
-  cube.mesh.rotation.y -= 0.05;
+cube.mesh.rotation.y -= 0.1;
 
   // Make it call the render() function about every 1/60 second
   requestAnimationFrame(render);
